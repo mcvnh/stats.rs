@@ -25,7 +25,6 @@ features = [
   'HtmlElement',
   'HtmlCanvasElement',
   'CanvasRenderingContext2d',
-  'Performance',
   'CssStyleDeclaration',
-  'HtmlDivElement'
+  'Performance',
 ]

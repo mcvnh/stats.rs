@@ -1,8 +1,11 @@
 [package]
 name = "stats-rs"
-version = "0.1.0"
+description = "Stats is a webassembly version written in Rust."
+repository = "https://github.com/anhmv/stats.rs"
 authors = ["AnhMV (anhmv91@gmail.com)"]
+version = "0.1.0"
 edition = "2018"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib"]

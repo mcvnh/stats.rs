@@ -1,4 +1,4 @@
-Webassembly Performance Monitor
+# Webassembly Performance Monitor
 
 Stats is a webassembly version of [stats.js](https://github.com/mrdoob/stats.js) written in Rust.
 

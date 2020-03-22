@@ -129,4 +129,15 @@ impl Stats {
         dom.append_child(&self.container)
             .expect("unable to attach the stats to the DOM");
     }
+
+    /// Detachs me from a specific DOM
+    ///
+    /// ```
+    /// stats.detach(document.body);
+    /// ```
+    ///
+    pub fn detach(&mut self, dom: &HtmlElement) {
+        dom.remove_child(&self.container)
+            .expect("unable to detach the stats from the DOM");
+    }
 }
